@@ -34,10 +34,6 @@ chat app with CRUD operations
     -uses giphy API
     -uses react
     -uses firebase
-        -mongo schema (id, gif: url, player 1 caption, votes, player 2 caption, votes, winner, date, in-progress?)
-        -Players and games are separate databases
-            -players_DB: (id, authentication, votes, wins)
-            -Games_DB: (id, gif: url, player 1 caption, votes, player 2 caption, votes, winner, date, in-progress?)
     -many tutorials to help clone reddit or stack overflow (and apply that to the giphy API)
     schema.org
     giphy api documentation/postman(test queries while waiting for the API key)
@@ -49,23 +45,11 @@ chat app with CRUD operations
     Mlabs account for MongoDB hosting (connect with Heroku)
     Bootstrap for CSS (duh)
 
-    File Structure:
-    -Routes
-    -Public
-    -App
-    
-
     List of compartmentalized functions/tasks...
-        List of views... (gifballz folder, all of react)?
-        Models (contains schema)
-            -firebase code snippet for integration where needed (maybe a scripts folder?)
-        Controllers
-            -Routes go here
-            -Mongo integration (queries go here)
-        Landing Page (first thing)
-            Login Page (authentication?)
-                User Profile Page (avatar, stats, create/update user form)
-                Battlefield Page
+        List of views... (which react components does this require)?
+            Landing Page (first thing)
+                Login Page (authentication?)
+                    User Profile Page (avatar, stats, create/update user form)
             About page (description of the background purpose of the project, like what belongs in the ReadMe)
 
         Routes corresponding to the views
@@ -85,10 +69,6 @@ chat app with CRUD operations
 
     Endpoints for CRUD functions (on the backend in express)
         -Look up how to write Express CRUD endpoints for 
-
--Stretch goals
-    -data flow and updates involved with multiple simultaneous battles could get complicated.
-        -Maybe make this a stretch goal
         
 
 Cruz' feedback:
@@ -96,9 +76,6 @@ Cruz' feedback:
 -Firebase would be better for asyncrnous changes
 Laravel?
 
-Charles' feedback:
-
--Possible
 
 
 
