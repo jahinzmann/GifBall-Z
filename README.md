@@ -53,6 +53,7 @@ chat app with CRUD operations
     -Routes
     -Public
     -App
+    -require firebase in every module where it is needed, as follows: 'import firebase from "firebase"'
     
 
     List of compartmentalized functions/tasks...

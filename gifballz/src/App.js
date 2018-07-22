@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Wrapper from "./Components/Wrapper";
 
 class App extends Component {
-  render() {
-    return (
+  render() { 
+    return ( <Wrapper />
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
