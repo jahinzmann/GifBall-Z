@@ -69,6 +69,13 @@ chat app with CRUD operations
                 Battlefield Page
             About page (description of the background purpose of the project, like what belongs in the ReadMe)
 
+            Components:
+                Wrapper = imports all other components listed
+                    1 Entire Battlefield Box
+                    2 Battlefield audience  list
+                    3 Player 1&2 Widows
+                    4 Audience Chat window
+
         Routes corresponding to the views
             Landing Page /home
                 Login Page /login
