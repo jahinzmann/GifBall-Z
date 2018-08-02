@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { config } from '../../../firebase';
 
 @Component({
   selector: 'app-audience-chat',
